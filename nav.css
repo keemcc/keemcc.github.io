@@ -1,0 +1,10 @@
+nav ul li {
+        display: inline-block;
+        border: 5px groove #3c49be;
+        width: 150px;
+        list-style-type: none;
+        padding: 10px 15px 10px 15px;
+        margin-top: 0;
+        margin-left: 10px;
+        text-align: center;
+}
