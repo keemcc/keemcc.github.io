@@ -1,14 +1,20 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff7de;
+}
+
+main p {
+    font-size: 20px;
+    text-indent: 15px;
+}
+
 h1 {color: #3c49be;}
+
 
 #firstLetter {
     font-size: 18px;
     font-weight: bold;
     text-decoration: underline;
-}
-
-.reflection {
-    font-family: Helvetica, serif;
-    text-align: left;
 }
 
 .reflection p {
@@ -17,4 +23,31 @@ h1 {color: #3c49be;}
 
 footer {
     font-size: 12px;
+}
+
+.professionalPhoto {
+    float: right;
+    margin: 0 5px 0 5px;
+    width: 200px;
+}
+
+@media (max-width: 2000px) {
+    main p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .professionalPhoto {
+        width: 20%;
+    }
+}
+
+@media (max-width: 600px) {
+    main p {
+        font-size: 20px;
+    }
+    .professionalPhoto {
+        width: 40%;
+    }
 }
