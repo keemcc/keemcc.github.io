@@ -1,6 +1,20 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: LexendRegular, Verdana, Geneva, Tahoma, sans-serif;
     background-color: #fff7de;
+}
+
+@font-face {
+    font-family: LexendRegular;
+    src: url("Lexend-Regular.ttf");
+}
+
+@font-face {
+    font-family: LexendSemiBold;
+    src: url("Lexend-SemiBold.ttf");
+}
+
+h1, h2, h3, h4, h5, h6 {
+        font-family: LexendSemiBold;
 }
 
 header h1 {
@@ -37,6 +51,7 @@ h1 {color: #3c49be;}
 
 footer {
     font-size: 12px;
+    margin: 10px;
 }
 
 .professionalPhoto {
@@ -63,5 +78,33 @@ footer {
     }
     .professionalPhoto {
         width: 40%;
+    }
+}
+
+@media print {
+    @page {
+        margin: 1in;
+    }
+    *{
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        font-family: serif;
+    }
+    h1 {
+        font-family: LexendSemiBold;
+    }
+    h3 {
+        font-family: serif;
+    }
+    nav {
+        display: none;
+    }
+    .professionalPhoto {
+        display: none;
+    }
+    .resumeLink {
+        display: none;
     }
 }
