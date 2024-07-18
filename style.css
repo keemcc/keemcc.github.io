@@ -32,7 +32,7 @@ body {
 }
 
 main {
-    margin: 10px;
+    margin: 50px;
 }
 
 main p {
@@ -53,10 +53,27 @@ h1 {color: #3c49be;}
     text-indent: 15px;
 }
 
+.resume-link {
+    margin-top: 60px;
+    width: 25%;
+}
+
+.resumeLink {
+    display: inline-block;
+    background-color: white;
+    color: #3c49be;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
 footer {
     font-size: 12px;
-    margin: 10px;
-    margin-top: 20px;
+    margin: 20px;
+    margin-top: 100px;
 }
 
 .footerbox {
@@ -115,6 +132,10 @@ footer {
     width: 100%;
     height: 100%;
 
+}
+
+.jobPosition span {
+    font-weight: bold;
 }
 
 .jobPosition ul {
@@ -213,6 +234,9 @@ form button {
 }
 
 @media (max-width: 600px) {
+    main {
+        margin: 10px;
+    }
     main p {
         font-size: 20px;
     }
@@ -236,6 +260,13 @@ form button {
     table {
         width: 90%;
         margin: 0 5%;
+    }
+    footer {
+        margin: 10px;
+    }
+    .resume-link {
+        width: 50%;
+        margin-left: 20px;
     }
 }
 
