@@ -130,6 +130,41 @@ footer {
     margin: -10px 50px 60px 50px;
 }
 
+table {
+    width: 75%;
+    border-collapse: collapse;
+    border: 3px solid black;
+    margin: 0 12.5%;
+}
+
+table caption {
+    text-align: left;
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table td, table th {
+    padding: 10px 10px;
+    background-color: lightgray;
+    font-size: 18px;
+}
+
+table th {
+    border-right: 2px solid white;
+    background-color: #3c49be;
+    color: white;
+    text-align: left;
+}
+
+table td {
+    border: 1px outset black;
+}
+
+table tr:nth-child(odd) td {
+    background-color: white;
+}
+
 @media (max-width: 2000px) {
     main p {
         font-size: 18px;
@@ -144,6 +179,10 @@ footer {
         margin: 20px 50px 25px 50px;
         width: 300px;
     }
+    table td, table th {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 1020px) {
@@ -153,7 +192,10 @@ footer {
     .logos {
         width: 240px;
     }
-
+    table {
+        width: 85%;
+        margin: 0 7.5%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -176,6 +218,10 @@ footer {
     }
     .jobPosition ul {
         margin-left: -30px;
+    }
+    table {
+        width: 90%;
+        margin: 0 5%;
     }
 }
 
