@@ -67,6 +67,17 @@ footer {
     width: 200px;
 }
 
+.footericon {
+    width: 24px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s;
+    z-index: 10;
+}
+
+.footericon:hover{
+    width: 30px;
+}
+
 @media (max-width: 2000px) {
     main p {
         font-size: 18px;
