@@ -87,7 +87,7 @@ nav ul li ul li a {
     }
     nav ul li ul {
         width: 100%;
-        z-index: 1;
+        z-index: 10;
     }
     #hamburger {
         display: block;
