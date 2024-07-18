@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+
+    <!--This page contains a contact form.-->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact</title>
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+
+</head>
+<body>
+    <header>
+        <h1>Keehin McCann</h1>
+        <nav>
+            <label id="hamburger" for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle">
+            <ul class="barlist">
+                <li><a class="link" href="index.html">Home</a></li>
+                <li><a class="link" href="about.html">About</a></li>
+                <li><a class="link" href="project.html">Projects</a>
+                    <ul class="dropdown">
+                        <li><a class="link" href="#projects.html">Link 1</a></li>
+                        <li><a class="link" href="#projects.html">Link 2</a></li>
+                        <li><a class="link" href="#projects.html">Link 3</a></li>
+                    </ul>
+                </li>
+                <li><a class="link" href="reflection.html">Reflection</a></li>
+                <li><a class="link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <form action="mailto:ktmmg4@umsystem.edu?Subject=Web%20Page%20Contact%20Form" method="post" enctype="text/plain">
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
+            </div>
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+            </div>
+            <div>
+                <label for="emailaddr">Email:</label>
+                <input type="email" name="emailaddr" id="emailaddr" placeholder="Email" required>
+            </div>
+            <div id="messagediv">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" placeholder="Message" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <div class="box">
+            <div class="iconLine"><img src="images/icons8-phone-100.png" alt="Phone Icon" class="footericon"><span class="phoneNumber">1+888-888-8888</span></div>
+            <div class="iconLine"><img src="images/icons8-email-100.png" alt="Email Icon" class="footericon"><span class="phoneNumber">ktmmg4@umsystem.edu</span></div>
+            <a target="_blank" href="https://icons8.com/icon/12580/email">Email</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a><br>
+            <a target="_blank" href="https://icons8.com/icon/9659/phone">Phone</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a><br>
+            <br>
+            Copyright © 2024 Keehin McCann
+        </div>
+    </footer>
+</body>
+</html>
